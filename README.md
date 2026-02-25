@@ -53,6 +53,27 @@ The system employs a **Dual-Model Pipeline** linked by an internal data-processi
 
 ---
 
+## 🗝️ My Contributions
+
+### System Architecture & Pipeline Design
+* Designed the Dual-Model architecture to seamlessly integrate Model 1 (Weather Forecasting) and Model 2 (Wildfire Risk Prediction).
+* Developed the External Function to manage data flow between models and convert "Month" into "Season" for enhanced predictive accuracy.
+
+### Data Preprocessing
+* Conducted Exploratory Data Analysis (EDA) and managed the preprocessing pipeline for Model 2, including missing value imputation, outlier handling, and data scaling.
+
+### Modeling & Analysis
+* Performed hyperparameter tuning for Model 2 (Random Forest).
+* Analyzed simulation results from the integrated pipeline: identified a clear trend of increasing average annual wildfire probability as the simulation progresses into the future.
+
+![2030_wildfire_Prediction](https://github.com/jiwonleelee/Weather-to-Wildfire-Prediction/blob/main/images/2030_wildfire_Prediction.png)
+
+![2080_wildfire_Prediction](https://github.com/jiwonleelee/Weather-to-Wildfire-Prediction/blob/main/images/2080_wildfire_Prediction.png)
+
+![predicted_wildfire_risk_October](https://github.com/jiwonleelee/Weather-to-Wildfire-Prediction/blob/main/images/predicted_wildfire_risk_October.png)
+
+---
+
 ## 📂 Directory Structure
 
 ```text
